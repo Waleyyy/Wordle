@@ -1,0 +1,25 @@
+CREATE TABLE words
+(wid serial PRIMARY KEY,
+word varchar(255));
+
+INSERT INTO words (word) VALUES
+('apple'), ('brave'), ('crane'), ('dance'), ('eagle'),
+('flame'), ('grape'), ('house'), ('input'), ('jolly'),
+('knife'), ('lunar'), ('mango'), ('noble'), ('ocean'),
+('pearl'), ('quilt'), ('roast'), ('sugar'), ('tiger'),
+('unite'), ('vivid'), ('waste'), ('xenon'), ('yield'),
+('zebra'), ('blaze'), ('climb'), ('draft'), ('event'),
+('flock'), ('greet'), ('honey'), ('ideal'), ('jumpy'),
+('karma'), ('lemon'), ('music'), ('novel'), ('orbit'),
+('peach'), ('quest'), ('rider'), ('shine'), ('trail'),
+('ultra'), ('voice'), ('watch'), ('xylem'), ('yacht'),
+('zesty'), ('abide'), ('blend'), ('cargo'), ('delve'),
+('earth'), ('frost'), ('globe'), ('heart'), ('index'),
+('jewel'), ('kiosk'), ('latch'), ('march'), ('niche'),
+('oxide'), ('plume'), ('quasi'), ('reign'), ('solar'),
+('taste'), ('umbra'), ('vital'), ('whale'), ('xerox'),
+('youth'), ('zones'), ('actor'), ('beach'), ('cider'),
+('drove'), ('elope'), ('forge'), ('giant'), ('hiker'),
+('imply'), ('jolly'), ('kneel'), ('layer'), ('miner'),
+('noble'), ('olive'), ('piano'), ('quack'), ('rapid'),
+('spice'), ('tiger'), ('urban'), ('valor'), ('whirl');
